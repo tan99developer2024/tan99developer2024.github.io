@@ -1,55 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tan99developer2024 - Official Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tan99developer2024 | Indie Game & App Developer</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    :root {
+      --primary-color: #0a84ff;
+      --secondary-color: #f5f7fa;
+      --text-color: #1c1c1e;
+      --accent-color: #007aff;
+      --border-radius: 10px;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
-      color: #333;
     }
+
+    body {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
     header {
-      background: #0070f3;
+      background-color: var(--primary-color);
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
+      box-shadow: var(--shadow);
     }
+
     header h1 {
-      margin: 0;
-    }
-    main {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    h2 {
-      color: #0070f3;
+      font-size: 2.5em;
       margin-bottom: 10px;
     }
-    a {
-      color: #0070f3;
-      text-decoration: none;
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
     }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: var(--accent-color);
+      font-size: 1.6em;
+      margin-bottom: 15px;
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 1.05em;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
     a:hover {
       text-decoration: underline;
     }
+
+    code {
+      background-color: #eef1f5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
     footer {
       text-align: center;
-      padding: 15px;
-      background: #f1f1f1;
-      margin-top: 30px;
-      font-size: 14px;
+      padding: 20px;
+      font-size: 0.9em;
       color: #666;
+      background-color: #eaeaea;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -62,21 +107,18 @@
   <main>
     <section>
       <h2>About Me</h2>
-      <p>Hello! I am <strong>tan99developer2024</strong>, an independent developer based in <em>Tây Ninh, Vietnam</em>. 
-      I specialize in creating creative indie games and professional mobile applications, 
-      using modern technologies such as <strong>Flutter</strong> and <strong>Unity</strong>.</p>
+      <p>Hi, I'm <strong>tan99developer2024</strong>, an independent developer based in <em>Tây Ninh, Vietnam</em>. I craft innovative indie games and build high-quality mobile applications using technologies like <strong>Flutter</strong> and <strong>Unity</strong>.</p>
     </section>
 
     <section>
       <h2>2D Game Showcase</h2>
-      <p>Here are some of my 2D indie games developed with Unity and other frameworks.  
-      (Image gallery removed for a cleaner layout.)</p>
+      <p>Explore my collection of 2D indie games developed with Unity and other frameworks. (Image gallery intentionally omitted for a minimalist experience.)</p>
     </section>
 
     <section>
       <h2>Verification Info</h2>
-      <p>The <code>app-ads.txt</code> file has been publicly available at: 
-      <a href="/app-ads.txt" target="_blank">https://tan99developer2024.github.io/app-ads.txt</a></p>
+      <p>My <code>app-ads.txt</code> file is publicly available at:  
+      <a href="https://tan99developer2024.github.io/app-ads.txt" target="_blank">https://tan99developer2024.github.io/app-ads.txt</a></p>
     </section>
 
     <section>
@@ -88,7 +130,7 @@
   </main>
 
   <footer>
-    &copy; 2025 tan99developer2024 - Flutter & Unity Developer
+    &copy; 2025 tan99developer2024 — Flutter & Unity Developer. All rights reserved.
   </footer>
 </body>
 </html>
